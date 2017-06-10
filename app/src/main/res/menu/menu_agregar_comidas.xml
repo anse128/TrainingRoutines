@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_camera_enhance_black_24dp"
+        android:title="Agregar comida"/>
+    <item
+        android:id="@+id/action_create"
+        android:icon="@drawable/ic_camera_alt_black_24dp"
+        android:title="Crear comida" />
+    <item
+        android:id="@+id/action_manual"
+        android:icon="@drawable/ic_touch_app_black_24dp"
+        android:title="Crear  comida manual"/>
+</menu>

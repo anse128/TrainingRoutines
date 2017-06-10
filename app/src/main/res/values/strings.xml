@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Training Routines</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="title_activity_alimento_detalle">AlimentoDetalleActivity</string>
+
+    <string-array name="actividad_array">
+        <item>ninguna </item>
+        <item>ligera 1 a 3 veces por semana</item>
+        <item>moderada 3 a 5 veces por semana</item>
+        <item>intensa 6 a 7 veces por semana</item>
+        <item>extrema (atletas profesionales)</item>
+    </string-array>
+
+    <string-array name="sexo_array">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+
+    <string-array name="objetivo_array">
+        <item>Subir de peso</item>
+        <item>Bajar de peso</item>
+        <item>Mantener el peso</item>
+    </string-array>
+
+</resources>

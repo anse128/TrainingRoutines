@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.example.sebastian.trainingroutines.AlimentoDetalleActivity">
+
+    <TextView
+        android:id="@+id/tvnombredetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30dp"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvcaloriasdetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30dp"
+        android:hint="Calorias"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tvproteinasdetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30dp"
+        android:hint="Proteinas"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tvcarbohidratosdetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30dp"
+        android:hint="Carbohidratos"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/tvgrasasdetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30dp"
+        android:hint="Grasas"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnagregardetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar" />
+
+</LinearLayout>
